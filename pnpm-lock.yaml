@@ -1,5 +1,10 @@
 lockfileVersion: 5.4
 
+patchedDependencies:
+  vitepress@1.0.0-alpha.4:
+    hash: c4c4jwy3etpyco5mt3lgpweeoy
+    path: patches/vitepress@1.0.0-alpha.4.patch
+
 specifiers:
   typescript: ^4.7.4
   vitepress: 1.0.0-alpha.4
@@ -7,7 +12,7 @@ specifiers:
 
 devDependencies:
   typescript: 4.7.4
-  vitepress: 1.0.0-alpha.4
+  vitepress: 1.0.0-alpha.4_c4c4jwy3etpyco5mt3lgpweeoy
   vue: 3.2.37
 
 packages:
@@ -693,7 +698,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitepress/1.0.0-alpha.4:
+  /vitepress/1.0.0-alpha.4_c4c4jwy3etpyco5mt3lgpweeoy:
     resolution: {integrity: sha512-bOAA4KW6vYGlkbcrPLZLTKWTgXVroObU+o9xj9EENyEl6yg26WWvfN7DGA4BftjdM5O8nR93Z5khPQ3W/tFE7Q==}
     engines: {node: '>=14.6.0'}
     hasBin: true
@@ -717,6 +722,7 @@ packages:
       - sass
       - stylus
     dev: true
+    patched: true
 
   /vscode-oniguruma/1.6.2:
     resolution: {integrity: sha512-KH8+KKov5eS/9WhofZR8M8dMHWN2gTxjMsG4jd04YhpbPR91fUj7rYQ2/XjeHCJWbg7X++ApRIU9NUwM2vTvLA==}
